@@ -1,0 +1,70 @@
+
+.meal-component{
+    width:60%;
+    height: 150px;
+    background-color: white;
+    border-radius: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.img{
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img-heading-desc{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-left: 8%;
+}
+.heading-desc{
+    margin-left: 1rem;
+}
+.heading-desc h1{
+    font-size:1.5rem;
+}
+.heading-desc p{
+    margin-top: -10px;
+}
+.heading-desc h3{
+    margin-top: -10px;
+}
+.form{
+    margin-right: 8%;
+}
+.add{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+}
+input{
+    width: 50px;
+    height: 26px;
+    padding-left: 1rem;
+    font-size: 1.1rem;
+}
+button{
+    margin-top: 1rem;
+    background-color: #cf3400;
+    color: white;
+    border: none;
+    height: 26px;
+    cursor: pointer;
+    width:100px;
+    height: 30px;
+    border-radius: 20px;
+    transition-property: all;
+    transition-duration: 0.2s;
+}
+button:hover{
+    transform: scale(1.1);
+}

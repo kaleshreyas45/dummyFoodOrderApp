@@ -1,0 +1,97 @@
+.cart{
+    width:100%;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.your-meal{
+    position: relative;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.totalAmount{
+    margin-right: 10%;
+    margin-top: 10%;
+}
+.divider{
+    width:80%;
+    height: 3px;
+    background-color: #cf3400;
+    margin-left: 10%;
+}
+.btns{
+    display: flex;
+}
+.back{
+    margin-left: 10%;
+    background-color: transparent;
+    border: 2px solid #cf3400;
+    border-radius: 20px;
+    color: #cf3400;
+    width:150px;
+    height: 36px;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+}
+.order{
+    margin-left: 2rem;
+    background-color: #cf3400;
+    border-radius: 20px;
+    color: white;
+    width:150px;
+    height: 36px;
+    margin-top: 2rem;
+    margin-bottom:2rem;
+}
+.each-meal{
+    margin-top: 1rem;
+    width: 60%;
+    height: 120px;
+    border-radius: 95px;
+    background-color: white;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.meal-heading-section{
+   margin-left: 2rem;
+   display: flex;
+   align-items: center;
+}
+.image{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.info{
+    margin-left: 1rem;
+}
+.buttons{
+ margin-right: 2rem;
+}
+.buttons button{
+    width:50px;
+    height: 26px;
+    margin-left: 0.7rem;
+    font-size: 1.2rem;
+    background-color: #cf3400;
+    transition-property: all;
+    transition-duration: 0.2s;
+
+}
+.buttons button:hover{
+    transform: scale(1.1);
+}
+
+.meal-price{
+    margin-top: -1rem;
+}
+.total-meal-price{
+    margin-left: 1rem;
+}
